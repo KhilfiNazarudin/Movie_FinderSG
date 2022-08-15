@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "371084505518",
+    "project_id": "cpmad-project-ce300",
+    "storage_bucket": "cpmad-project-ce300.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371084505518:android:17c975e174b52e894d183f",
+        "android_client_info": {
+          "package_name": "com.example.movie_findersg_khilfi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371084505518-rl0sjbh2k7treugkche5m9t77i7srosk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm8GzzPKzL6Zldy__0eiu740U1sm4b83g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "371084505518-rl0sjbh2k7treugkche5m9t77i7srosk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
