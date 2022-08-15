@@ -76,7 +76,7 @@ class _loginScreenState extends State<loginScreen> {
     var password = sp.getString('password');
     
     if (uid != null) {
-      // Automatically sign in
+      // Automatic sign in
       Reference ref =
           FirebaseStorage.instance.ref().child("/user/profile/" + uid);
       var url = await ref.getDownloadURL();
