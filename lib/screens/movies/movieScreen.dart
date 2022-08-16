@@ -144,7 +144,7 @@ class _moviePageState extends State<moviePage> {
     }
   }
 
-  Widget searchedMovieContainer(List<Movies> searchedList) {
+  Expanded searchedMovieContainer(List<Movies> searchedList) {
     return Expanded(
       child: ListView.builder(
           itemCount: null == searchedList ? 0 : searchedList.length,
@@ -183,6 +183,9 @@ class _moviePageState extends State<moviePage> {
                                     ? "/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg"
                                     : popularMovies.posterPath),
                             height: 250,
+                          ),
+                          SizedBox(
+                            width: 50,
                           ),
                           Expanded(
                             flex: 2,
