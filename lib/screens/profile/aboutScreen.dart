@@ -20,7 +20,15 @@ class _aboutPageState extends State<aboutPage> {
                 launch("tel: 64515115");
                 print("Phone icon is pressed");
               },
-              icon: Icon(Icons.phone))
+              icon: Icon(Icons.phone)),
+          IconButton(
+              onPressed: () {
+                launch(
+                    "mailto:askNYP@nyp.edu.sg?subject=WalkInThePark&body=The Best app");
+
+                print("Phone icon is pressed");
+              },
+              icon: Icon(Icons.email)),
         ],
         title: Text(
           "About page",
