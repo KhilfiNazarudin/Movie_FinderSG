@@ -1,16 +1,34 @@
-# movie_findersg_khilfi
+Data Source and it's usage
+    The Movie Database (TMDB)
+    YouTube 
+    OneMap.sg
+    GoogleMaps
 
-A new Flutter project.
+    TMDB Usage
+        Getting popular movies
+        https://api.themoviedb.org/3/movie/popular?api_key=d531746f62591cbf027fc279fd5d3c44
 
-## Getting Started
+        Searching movies (Prey)
+        http://api.themoviedb.org/3/search/movie?api_key=d531746f62591cbf027fc279fd5d3c44&query=prey
 
-This project is a starting point for a Flutter application.
+        Getting movie details
+        https://api.themoviedb.org/3/movie/766507?api_key=d531746f62591cbf027fc279fd5d3c44
 
-A few resources to get you started if this is your first Flutter project:
+        Getting videos related to movie
+        https://api.themoviedb.org/3/movie/766507/videos?api_key=d531746f62591cbf027fc279fd5d3c44
+    
+    YouTube Usage
+        Getting YouTube video
+        https://www.youtube.com/watch?v=br5cxQXKtuc
+    
+    OneMap.sg Usage
+        Getting locations of Cathay Cineplex
+        https://developers.onemap.sg/commonapi/search?searchVal=cathay cineplex&returnGeom=Y&getAddrDetails=Y
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+        Getting locations of Shaw Theatres
+        https://developers.onemap.sg/commonapi/search?searchVal=shaw theatres&returnGeom=Y&getAddrDetails=Y
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+        Getting locations of Golden Village
+        https://developers.onemap.sg/commonapi/search?searchVal=golden village&returnGeom=Y&getAddrDetails=Y
+
+    
